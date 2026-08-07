@@ -1,0 +1,60 @@
+/*
+ * Identite visuelle inspiree de shodo.io : fond noir, texte creme, accent rose,
+ * titres XXL en majuscules. --slidev-theme-primary est la variable utilisee par
+ * le theme seriph pour colorer h1/liens (styles/layouts.css du theme).
+ */
+:root {
+  --slidev-theme-primary: #ff175a;
+}
+
+.slidev-layout {
+  background: #000;
+  color: #ffefd4;
+}
+
+.slidev-layout h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.slidev-layout h2,
+.slidev-layout h3 {
+  color: #ffefd4;
+}
+
+/*
+ * Paragraphe suivant directement un h1 : garde une hierarchie (ton plus
+ * discret que le corps de texte) sans reproduire le style "sous-titre" du
+ * theme (cf. correction precedente sur 03-token.md).
+ */
+.slidev-layout.default h1 + p {
+  opacity: 0.65;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Puces carrees, a la place des puces rondes par defaut du theme */
+.slidev-layout ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.slidev-layout ul > li {
+  position: relative;
+  padding-left: 1.3em;
+}
+
+.slidev-layout ul > li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 8px;
+  height: 8px;
+  background: #ff175a;
+}
+
+.slidev-layout ul ul > li::before {
+  background: #ffefd4;
+}

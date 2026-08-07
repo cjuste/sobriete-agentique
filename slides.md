@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://cover.sli.dev
+background: '#000000'
 title: Sobriété agentique
 info: |
   ## Sobriété agentique
@@ -11,6 +11,9 @@ drawings:
 transition: slide-left
 comark: true
 mdc: true
+fonts:
+  sans: 'Space Grotesk'
+  weights: '400,500,600,700,800'
 src: ./pages/01-titre.md
 ---
 
