@@ -24,12 +24,13 @@
 }
 
 /*
- * Paragraphe suivant directement un h1 : garde une hierarchie (ton plus
- * discret que le corps de texte) sans reproduire le style "sous-titre" du
- * theme (cf. correction precedente sur 03-token.md).
+ * Le theme seriph applique un effet "sous-titre" (opacite reduite, marge
+ * negative) a tout paragraphe suivant un h1. On ne le garde que sur la
+ * page de titre (layout cover) ; partout ailleurs le paragraphe redevient
+ * du texte normal.
  */
-.slidev-layout.default h1 + p {
-  opacity: 0.65;
+.slidev-layout:not(.cover) h1 + p {
+  opacity: 1;
   margin-top: 1em;
   margin-bottom: 1em;
 }

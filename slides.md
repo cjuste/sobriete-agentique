@@ -1,6 +1,7 @@
 ---
 theme: seriph
 background: '#000000'
+colorSchema: dark
 title: Sobriété agentique
 info: |
   ## Sobriété agentique

@@ -19,8 +19,9 @@ const { currentSlideNo } = useNav()
 
 .shodo-index {
   position: absolute;
-  top: 1.5rem;
-  left: 2rem;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
   font-weight: 700;
   font-size: 0.85rem;
   letter-spacing: 0.1em;
