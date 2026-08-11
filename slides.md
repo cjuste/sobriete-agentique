@@ -31,29 +31,41 @@ src: ./pages/04-tokenizer-unique.md
 ---
 
 ---
-src: ./pages/05-fonctionnement.md
+src: ./pages/05-texte-entree.md
 ---
 
 ---
-src: ./pages/06-gestion-contexte.md
+src: ./pages/06-fonctionnement-RTK.md
 ---
 
 ---
-src: ./pages/07-texte-entree.md
+src: ./pages/07-texte-sortie.md
 ---
 
 ---
-src: ./pages/08-texte-sortie.md
+src: ./pages/08-ide.md
 ---
 
 ---
-src: ./pages/09-ide.md
+src: ./pages/09-graphe.md
 ---
 
 ---
-src: ./pages/10-graphe.md
+src: ./pages/10-aller-plus-loin.md
 ---
 
 ---
-src: ./pages/11-merci.md
+src: ./pages/11-fonctionnement.md
+---
+
+---
+src: ./pages/12-impact-contexte.md
+---
+
+---
+src: ./pages/13-gestion-contexte.md
+---
+
+---
+src: ./pages/14-merci.md
 ---

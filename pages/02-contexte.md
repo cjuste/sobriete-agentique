@@ -4,6 +4,12 @@ transition: fade-out
 
 # Contexte
 
-- Facture IA en nombre de tokens (entrant et sortant)
-- Ecart annoncé entre prix payé et coût réel
-- Impact écologique certain
+- Explosion de l'IA
+
+- Utilisation "obligatoire" pour certains développeurs
+
+- Gains sur de nombreux usages (quand bien utilisée !)
+
+- Mais un coût financier et écologique non négligeable
+
+- Que peut-on faire pour réduire cet impact ?

@@ -4,7 +4,7 @@ Réduire l'usage de tokens
 
 <div class="shodo-credits">
 Clément JUSTE<br>
-Développeur Java<br>
+Développeur backend - Java<br>
 Shodo Rennes
 </div>
 

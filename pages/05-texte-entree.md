@@ -1,4 +1,4 @@
-# Moins de texte en entrée -> contexte plus léger
+# En entrée
 
 RTK (Rust Token Killer) : proxy avant l'agent pour réduire le texte
 envoyé. [https://www.rtk-ai.app/](https://www.rtk-ai.app/)
