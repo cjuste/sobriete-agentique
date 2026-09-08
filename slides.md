@@ -63,9 +63,13 @@ src: ./pages/12-impact-contexte.md
 ---
 
 ---
-src: ./pages/13-gestion-contexte.md
+src: ./pages/13-canari.md
 ---
 
 ---
-src: ./pages/14-merci.md
+src: ./pages/14-gestion-contexte.md
+---
+
+---
+src: ./pages/15-merci.md
 ---
