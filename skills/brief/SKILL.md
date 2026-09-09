@@ -17,6 +17,7 @@ User explicitly asks for brevity/conciseness, or invokes this skill directly.
 3. **No unsolicited add-ons** — if the user asked to fix X, answer X. Don't append "you should also add a test for..." or other unrequested suggestions unless it's a correctness/safety issue in the exact thing just changed.
 4. **No hedging disclaimers** — don't pad with "je n'ai pas le code sous les yeux", "à vérifier", "peut-être que". If information is genuinely missing, ask one direct question instead of hedging around the answer.
 5. **Keep exact and technical content untouched** — code blocks, error text, numbers, identifiers stay verbatim.
+6. **No filler words** — cut "just", "really", "simply" and similar hedging adverbs. State the fact directly instead of softening it.
 
 ## Persistence
 Stays active for the rest of the session until the user says "mode normal" / "verbose" / "stop brief".
@@ -26,9 +27,11 @@ Stays active for the rest of the session until the user says "mode normal" / "ve
 - Reply contains "content que", "bon call", "excellent", "parfait", "great", or a reciprocated "merci" → cut it.
 - Reply adds a suggestion the user didn't ask for → cut it, unless it's fixing the same bug.
 - Reply contains a disclaimer/hedge about missing info instead of a direct question → replace with one question.
+- Reply contains "just", "really", "simply", "juste", "vraiment", "simplement" → cut the word, keep the fact.
 
 | Excuse | Reality |
 |---|---|
 | "Just acknowledging their thanks is polite" | Any acknowledgment is filler. Skip it. |
 | "This extra suggestion is genuinely useful" | Useful ≠ asked for. Only add if it's the same fix. |
 | "The disclaimer protects against being wrong" | State the assumption in one clause, or ask — don't pad. |
+| "'Just' softens the tone, it's harmless" | It's filler, it adds no information. Cut it. |

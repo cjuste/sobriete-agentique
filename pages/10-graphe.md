@@ -1,4 +1,4 @@
-# Voire un graphe de connaissance
+# Voire un graphe de connaissances
 
 Des outils indexent le projet sous forme de graphe :
 

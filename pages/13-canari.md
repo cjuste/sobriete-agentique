@@ -20,7 +20,8 @@ Un skill simple : préfixer chaque phrase par un mot-clé ("Misu") quand il est 
 
 Quand l'utiliser ?
 
-=> Au début pour prendre l'habitude de nettoyer régulièrement ses sessions 
-=> Au début/pendant une longue session.
+=> Au début de son usage du dev agentique pour prendre l'habitude de nettoyer régulièrement ses sessions 
+
+=> Durant une longue session.
 
 </v-click>

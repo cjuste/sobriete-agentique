@@ -1,11 +1,11 @@
 # En entrée
 
-RTK (Rust Token Killer) : proxy avant l'agent pour réduire le texte
-envoyé. [https://www.rtk-ai.app/](https://www.rtk-ai.app/)
+[RTK](https://www.rtk-ai.app/) (Rust Token Killer) : proxy avant l'agent pour réduire le texte
+envoyé. 
 
-Réduit la verbosité. Utile sur les fichiers de logs, les builds, les git log, …
+Réduit la verbosité. Utile sur les logs, fichier ou git, les builds, …
 
-## Sur un build maven
+## Sur un build Maven
 
 ```bash
 mvn clean package
