@@ -11,8 +11,8 @@ Chaque échange avec le modèle renvoie tout le contexte, enrichi des nouveaux �
 
 <v-click>
 
-=> Il peut finir par dépasser la capacité du modèle
-
 => Chaque aller-retour est coûteux
+
+=> Il peut finir par dépasser la capacité du modèle
 
 </v-click>
