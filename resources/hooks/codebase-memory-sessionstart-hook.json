@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "codebase-memory-mcp cli index_repository --repo-path $CLAUDE_PROJECT_DIR >/dev/null 2>&1 || true",
+            "timeout": 600,
+            "statusMessage": "Reindexing codebase-memory graph..."
+          }
+        ]
+      }
+    ]
+  }
+}

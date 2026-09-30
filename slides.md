@@ -67,9 +67,21 @@ src: ./pages/13-canari.md
 ---
 
 ---
-src: ./pages/14-gestion-contexte.md
+src: ./pages/14-statusline.md
 ---
 
 ---
-src: ./pages/15-merci.md
+src: ./pages/15-gestion-contexte.md
+---
+
+---
+src: ./pages/16-kaizen.md
+---
+
+---
+src: ./pages/17-merci.md
+---
+
+---
+src: ./pages/18-ressources.md
 ---
