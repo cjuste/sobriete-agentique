@@ -1,8 +1,8 @@
 ---
-name: misu-canary
+name: canary
 description: >
   Use when the user asks to activate a context canary or compliance marker
-  (e.g. "active le canari", "mode canari", "canary mode", "/misu-canary").
+  (e.g. "active le canari", "mode canari", "canary mode", "/canary").
   Prefixes every sentence with "Misu" so the user can visually detect, from
   a distance, whether instructions are still being followed (a dropped
   prefix signals context exhaustion, compaction, or drift). Stays active
@@ -13,7 +13,7 @@ Prefix every sentence of every response with "Misu" while active. This is a cana
 
 ## When to Use
 
-User explicitly asks to turn on the canary/canari (e.g. "active le canari", "mode canari", "canary mode", "/misu-canary"). Not on by default — wait for the trigger.
+User explicitly asks to turn on the canary/canari (e.g. "active le canari", "mode canari", "canary mode", "/canary"). Not on by default — wait for the trigger.
 
 ## Persistence
 
@@ -21,7 +21,7 @@ Once triggered: ACTIVE EVERY SENTENCE for the rest of the session, until disable
 
 | Toggle | Phrases |
 |---|---|
-| On | "active le canari", "mode canari", "canary mode", "/misu-canary" |
+| On | "active le canari", "mode canari", "canary mode", "/canary" |
 | Off | "désactive le canari", "stop canari", "mode normal", "stop canary" |
 
 Toggle lasts for rest of session only — next session starts off again, waiting for the trigger.
