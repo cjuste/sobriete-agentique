@@ -39,12 +39,6 @@ Et chez les autres agents ?
 
 </v-click>
 
-<v-click>
-
-=> La statusline pilotée par un script arbitraire reste une spécificité de Claude Code
-
-</v-click>
-
 <style scoped>
 p {
   margin: 0.4em 0;

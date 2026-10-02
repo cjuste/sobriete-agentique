@@ -6,3 +6,10 @@ Des outils indexent le projet sous forme de graphe :
 - Codebase-memory (code)
 
 Comme le LSP, efficaces sur de gros projets. Mais nécessitent de mettre le graphe à jour régulièrement.
+
+<v-click>
+
+- Possible d'activer l'indexation automatique.
+- Ou de mettre un hook pour le rafraîchir.
+
+</v-click>
